@@ -1,0 +1,125 @@
+.filters-group-container {
+  margin-top: 16px;
+
+  /* border: 1px solid blue;
+  padding: 30px 0; */
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 10px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+.search-input {
+  flex-grow: 1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 8px;
+  color: #12022f;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 500;
+  height: 35px;
+}
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.category-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 25px;
+}
+.category-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.category-option-text {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.active-category {
+  color: #0967d2;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.ratings-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 30px;
+}
+.rating-heading {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 18px;
+}
+.rating-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  padding-left: 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.rating-image {
+  width: 130px;
+}
+.rating-button-text {
+  margin: 0;
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+}
+.active-rating-text {
+  color: #0967d2;
+  font-weight: 500;
+}
+.clear-filters-btn {
+  color: #0967d2;
+  border: 2px solid #0967d2;
+  background-color: transparent;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 25px;
+}
+* {
+  /* border: 1px solid red; */
+}
